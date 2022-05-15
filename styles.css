@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body{
+height: 100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+ width: 100%;
+ background-color: white;
+ position: fixed;
+ top: 0;
+ padding: 15px;
+}
+
+.header ul{
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ padding-top: 15px;
+ font-size: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: black;
+  font-family:'Oleo Script Swash Caps',cursive;
+}
+
+.header ul li:hover{
+ border-bottom: 1px solid brown;
+ cursor: pointer;
+}
+
+.w-100 {
+ width: 100%;
+}
+
+.lh-4 {
+ line-height: 4rem;
+}
+
+.hero-section{
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+
+.hero-img {
+ width: 30%;
+ padding: 40px 0 40px 20px;
+}
+
+.hero-img img {
+ width: 100%;
+ border-radius: 10px;
+}
+
+.hero-txt {
+ width: 60%;
+ padding: 70px;
+}
+
+.hero-txt p{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-txt h2{
+  font-family:'Oleo Script Swash Caps',
+  cursive;
+}
+
+.fs-15 {
+ font-size: 15rem;
+}
+
+.fs-3 {
+ font-size: 1.5rem;
+}
+
+.d-block {
+ display: block;
+}
+
+.d-flex {
+ display: flex;
+}
+
+.jc-center {
+ justify-content: center;
+}
+
+.jc-s-btw {
+ justify-content: space-between;
+}
+
+.jc-s-around {
+  justify-content: space-around;
+}
+
+.alIt-center {
+ align-items: center;
+}
+
+.flex-dir {
+ flex-direction: column;
+}
+
+.hero-section p, .hero-section h2{
+ color: brown;
+}
+
+.hero-section p{
+ line-height: 2.5rem;
+}
+
+.hero-section h2{
+ font-size: 3rem;
+}
+
+.about-me{
+ color: lightgrey;
+ height: auto;
+ padding: 10px;
+ font-size: 2rem;
+ padding-bottom: 0;
+ margin-top: 20px;
+}
+
+.txt-center {
+ text-align: center;
+}
+
+.resources{
+ color: brown;
+ height: auto;
+ padding: 0 10px 10px 10px;
+}
+
+.p-10 {
+ padding: 10px;
+}
+
+.res-box {
+ background-color: lightgrey;
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+}
+
+.about-box {
+ background-color: rgb(154, 75, 75);
+ border-top-right-radius: 15px;
+ border-top-left-radius: 15px;
+}
+
+.about-box p {
+ font-size: 22px;
+ line-height: 3rem;
+} 
+
+.about-box h3 {
+ line-height: 3rem;
+}
+
+.w-92 {
+ width: 92%;
+}
+
+.f-img, .s-img {
+ width: 200px;
+ padding: 20px;
+}
+
+.f-img img, .s-img img {
+ border: 3px solid rgba(171, 110, 110, 0.793);
+ border-radius: 10px;
+ width: 100%;
+}
+
+.myproj-box h2 {
+ font-size: 2.5rem;
+}
+
+.myproj-box p {
+ font-size: 1.5rem;
+}
+
+.myproj-box h2, .myproj-box p {
+ color: brown;
+}
+
+.proj-size {
+ font-size: 1.4rem;
+}
+
+.project{
+ border-top: 2px solid brown;
+ border-right: 2px solid brown;
+ border-bottom: 2px solid brown;
+ border-left: 20px solid brown;
+ border-radius: 100px;
+ margin: 30px;
+ background-color: white;
+ height: auto;
+ width: 90%;
+ padding: 50px;
+}
+
+.footer {
+ background-color: brown;
+ height: auto;
+ margin-top: 100px;
+ color: white;
+}
+
+.footer h2 {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.col-fff {
+  color: white;
+}
+
+.ft-s-session {
+  padding: 10px 40px 30px 40px;
+}
+
+.footer-1 {
+  padding: 30px;
+}
+
+.copy-rights {
+  padding: 20px;
+}
+
+@media screen and (max-width: 567px) {
+ .hero-section {
+  margin-top: 70px;
+  display: block;
+  padding: 20px;
+ }
+
+ .hero-txt {
+  width: 100%;
+  padding: 20px;
+ }
+
+ .lh-4 {
+  line-height: 5px;
+ }
+
+ .hero-section h2 {
+  font-size: 50px;
+  line-height: 45px;
+  margin-bottom: 20px;
+ }
+
+ .hero-img {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+ }
+
+ .hero-img img {
+  width: 50%;
+ }
+
+ .fs-3 {
+  font-size: 21px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
